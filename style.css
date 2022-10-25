@@ -1,0 +1,104 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: url("nightsky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card{
+  font-family: "Candara", sans-serif;
+  width: 340px;
+  overflow: hidden;
+  background: grey;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image img{
+  width: 100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-image img{
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin-top: -75px;
+  box-shadow: 0 0 0px #ff004f;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border: 10px solid #fff;
+  transition-duration: 0.4s;
+  transition-property: transform;
+  transition: box-shadow 0.5s;
+
+}
+
+.profile-image img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 0 5px #ff004f;
+}
+
+.card-content h3{
+  font-size: 25px;
+  text-align: center;
+  margin: 0;
+  font-family: Bookman; 
+  border: solid;
+  color: white;
+}
+
+.card-content p{
+  font-size: 16px;
+  text-align: justify;
+  padding: 0 20px 5px 20px;
+  color: white;
+  font-family: Bookman; 
+}
+
+.icons{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.icons a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #0ABDE3;
+  padding: 0 14px;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.icons a:hover{
+  color: #000;
+  transform: scale(1.5);
+}
+      .Follow {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-family: Geneva;
+}
